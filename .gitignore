@@ -1,0 +1,22 @@
+# venv
+.venv/
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+# tests/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+# env & secrets
+.env
+.env.*
+# IDE
+.idea/
+.vscode/
+# build artifacts
+dist/
+build/
+*.egg-info/
