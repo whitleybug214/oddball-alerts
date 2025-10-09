@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pytest
+
+ruff
+black
+isort
+python-dotenv
