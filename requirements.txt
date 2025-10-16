@@ -52,6 +52,10 @@ pydantic-core==2.41.1
 pygments==2.19.2
     # via pytest
 pytest==8.4.2
+    # via
+    #   -r requirements.in
+    #   pytest-asyncio
+pytest-asyncio==1.2.0
     # via -r requirements.in
 python-dotenv==1.1.1
     # via
@@ -73,6 +77,7 @@ typing-extensions==4.15.0
     #   fastapi
     #   pydantic
     #   pydantic-core
+    #   pytest-asyncio
     #   starlette
     #   typing-inspection
 typing-inspection==0.4.2

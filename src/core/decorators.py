@@ -43,5 +43,5 @@ def timed(label: str | None = None):
                     name = label or func.__name__
                     logger.info(f"timed({name}): {elapsed:.2f} ms")
                     return result
-            return sync_wrapper
+        return sync_wrapper
     return decorator
